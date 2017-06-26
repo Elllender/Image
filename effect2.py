@@ -24,8 +24,8 @@ def effect2(path,path_save):
       masr.append(r)
       masg.append(g)
       masb.append(b)
-  masb.sort()
-  masb.sort(reverse=True)
+  masb.sort()  # masr - массив для красного значения пикселя, masg - для зеленого,  masb - массив для синего.
+  masb.sort(reverse=True) # Можно сортировать в перевернутом значении.:0
 
   n = 0
 
