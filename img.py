@@ -47,9 +47,11 @@ if __name__ == '__main__':
 
 
 if args.grad:
+  print('[+] Effect Gradient.')
   import effect2
   effect2.effect2(path,path_save)
 if args.nois:
+  print('[+] Effect Noise.')
   import effect
   effect.effect(path,path_save)
 
