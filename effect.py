@@ -24,7 +24,7 @@ def effect(path,path_save):
       color = img.getpixel((x,y))
       mas.append(color)
   for m in range(0,len(mas)):
-     k = randint(0,2) # Рандомное значение (чем меньше тем "шум" чаще) для чайников :)
+     k = randint(0,2) # Рандомное значение (чем меньше тем "шум" чаще).
      if k == 1:
        mas[m] = mas[m-1] # Замена на предыдущий пиксель можно mas[-m+1] будет вверх.
      else:
